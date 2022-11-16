@@ -12,4 +12,6 @@ user1 = User.create(username: 'hannahchristmas', email: "hannah@gmail.com", pass
 
 recipe1 = Recipe.create(title: 'Air Fryer Tofu', ingredients: "1/2 tbsp avocado oil, 2 tbsp tamari, 1/2 tsp sriracha", preptime: 25, cooktime: 18, description: "In a large bowl, combine oil, tamari, & sriracha. Toss. Let tofu marinate for 20 minutes. Air fry on 400 for 18 minutes, shaking halfway, until golden brown and crisp around the edges.")
 
+review1 = Review.create(content: 'This recipe is perfect. No notes.', rating: 5, user_id: user1.id, recipe_id: recipe1.id)
+
 puts "✅ Done seeding"

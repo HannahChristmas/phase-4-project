@@ -4,7 +4,7 @@ class RecipesController < ApplicationController
     end
 
     def show 
-        user = Recipe.find(params[:id])
-        render json: user, status: :ok
+        recipe = Recipe.find(params[:id])
+        render json: recipe, status: :ok
     end
 end

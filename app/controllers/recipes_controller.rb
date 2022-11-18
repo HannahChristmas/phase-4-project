@@ -1,6 +1,9 @@
 class RecipesController < ApplicationController
     def index 
-        render json: Recipe.all.to_json, status: :ok
+        
+        recipe = Recipe.all
+        render json: recipe, status: :ok
+        # render json: Recipe.all.to_json, status: :ok
     end
 
     def show 

@@ -6,15 +6,9 @@ body {
   background-color: white;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
-
 .App {
   text-align: center;
 }
-
 nav a {
   /* display: inline-flex; */
   padding-top: 1.5rem;
@@ -26,13 +20,10 @@ nav a {
   vertical-align: middle;
   line-height: 8rem;
 }
-
 nav a:hover{
   color: #F76507;
   border-bottom: 2px solid #40BA93;
 }
-
-
 .navImage{
   height: 5.5rem;
   float: right;
@@ -40,6 +31,10 @@ nav a:hover{
   padding-top: 1.3rem;
 }
 
+.header{
+  background-color: #FFEFE4;
+  height: 8rem;
+}
 
 /* .navImageDiv{ 
   background-color: purple;
@@ -49,9 +44,3 @@ nav a:hover{
   position: absolute;
   padding-top: 1.3rem;
 }  */
-
-
-.header{
-  background-color: #FFEFE4;
-  height: 8rem;
-}
